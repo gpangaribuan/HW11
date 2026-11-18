@@ -1,22 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
-}
-canvas {
-  display: block;
-}
-
-/*@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-
-body {
-  margin: 0;
-  padding: 0;
   background-color: black;
 }
 canvas {
   display: block;
   padding: 20px;
   margin: auto;
+  @import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 }
 
 canvas.home  {
@@ -26,11 +17,6 @@ canvas.home  {
   border-radius: 50%;
 }
 
-#dog {
-  display: block;
-  width: 400px;
-  margin: auto;
-}
 
 div.ex-text {
   display: block;
@@ -75,4 +61,5 @@ a {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-}*/
+}
+
