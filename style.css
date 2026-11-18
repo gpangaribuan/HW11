@@ -37,14 +37,7 @@ h2 {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
-}
-
-h3 {
-  color: whitesmoke;
-  font-family: "Redaction 50", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: larger;
+  text-aling: center;
 }
 
 p {
@@ -53,13 +46,15 @@ p {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  text-align: center;
 }
 
 a {
-  color: lavenderblush;
+  color: lemonchiffon;
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  text-align: center;
 }
 
