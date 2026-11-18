@@ -5,14 +5,14 @@ html, body {
 }
 canvas {
   display: block;
-  padding: 20px;
+  padding: 50px;
   margin: auto;
   @import url('https://fonts.google.com/');
 }
 
 canvas.home  {
   display: block;
-  padding: 20px;
+  padding: 50px;
   margin: auto;
   border-radius: 50%;
 }
