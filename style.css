@@ -25,7 +25,7 @@ div.ex-text {
 }
 
 h1 {
-  color: whitesmoke;
+  color: gold;
   font-family: "Redaction 50", bebas neue;
   font-weight: 700;
   font-style: normal;
@@ -37,7 +37,7 @@ h2 {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
-  text-aling: center;
+  text-align: center;
 }
 
 p {
