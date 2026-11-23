@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Schoolbell&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 140px;
+  width: 100%;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 500%;
+  text-shadow: #704616 3px 3px 3px, #704616 -3px -3px 3px, #ffeb41 5px 0 20px;
+
+  animation: slide-in 2s ease-out;
+}
+
+h2 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 60px;
+  width: 70%;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 1500;
+  font-style: normal;
+  font-size: 400%;
+  text-shadow: #704616 3px 3px 3px, #704616 -3px -3px 3px, #ffeb41 5px 0 20px;
+  
+  animation: slide-in 2s ease-out forwards;
+}
+
+h3 {
+  position: absolute;
+  margin-top: 300px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  text-align: right;
+  width: 100%;
+  color: #f5f39b;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+  opacity: 0;
+
+  animation: fadeIn 2s 2s forwards;
+}
+
+h4 {
+  position: absolute;
+  margin-top: 370px;
+  box-sizing: border-box;
+  text-align: right;
+  width: 100%;
+  padding-right: 150px;
+  color: #f5f39b;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  opacity: 0;
+
+  animation: fadeIn 2s forwards;
+  animation-delay: 4s;
+}
+
+p {
+  position: absolute;
+  top: 555px;
+  left: 830px;
+  color: #f5f39b;
+  font-family: "Schoolbell", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 130%;
+}
+
+@keyframes slide-in{
+  from{
+    transform: translateX(-100px)
+  }
+  to{
+    transform: translateX(0px)
+  }
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

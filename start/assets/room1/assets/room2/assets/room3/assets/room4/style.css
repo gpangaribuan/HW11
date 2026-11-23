@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  margin-top: 0px;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  z-index: 2;
+  position: absolute;
+  margin-top: 200px;
+  text-align: center;
+  width: 100%;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+
+  animation: slide-in 2s ease-out forwards;
+}
+
+h2 {
+  z-index: 2;
+  position: absolute;
+  margin-top: 300px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+
+  animation: slide-in 2s ease-out 5s forwards;
+}
+
+h3 {
+  z-index: 2;
+  position: absolute;
+  margin-top: 400px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+
+  animation: slide-in 2s ease-out 9s forwards;
+}
+
+#babyVideo {
+  z-index: 1;
+  position: absolute;
+  width: 900px;
+  height: 550px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slide-in {
+  from {
+    translate: -50vw;
+    opacity: 0;
+  }
+
+  to {
+    translate: 0;
+    opacity: 1;
+  }
+}

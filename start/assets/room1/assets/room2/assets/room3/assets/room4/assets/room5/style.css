@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  margin-top: 0px;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  z-index: 2;
+  position: absolute;
+  margin-top: 300px;
+  text-align: center;
+  width: 100%;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+  opacity: 0;
+
+  animation: fadeIn 6s forwards;
+}
+
+h2 {
+  z-index: 2;
+  position: absolute;
+  margin-top: 400px;
+  text-align: center;
+  width: 100%;
+  color:#fca9d7;
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+  opacity: 0;
+
+  animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
